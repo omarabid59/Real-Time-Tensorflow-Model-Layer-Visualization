@@ -7,7 +7,7 @@ The image shows the real time visualization of the layers as the system is proce
 ![Sample Image Output during visualization of the layers](https://github.com/omarabid59/Real-Time-Tensorflow-Model-Layer-Visualization/blob/master/visualization_output.png)
 
 ## Quick Start Guide
-Install the necessary dependencies.
+Install the necessary dependencies, then follow the tutorial to [Install Tensorflow and the Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for your OS.
 ```
 sudo apt-get install libopencv-dev python-opencv
 sudo pip install numpy scipy
