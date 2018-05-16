@@ -13,3 +13,10 @@ sudo apt-get install libopencv-dev python-opencv
 sudo pip install numpy scipy
 ```
 
+Run the notebook **notebook name**.
+
+## Specifying your own layers
+To specify your own layers in the model to visualize is a bit of a tedious process.
+
+Only the ReLU units were chosen
+
