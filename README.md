@@ -1,4 +1,4 @@
-# Real-Time-Tensorflow-Model-Layer-Visualization
+# DIY Real Time Tensorflow Model Layer Visualization
 This presents sample code to visualize some of the layers of a model loaded into tensorflow. We describe the process of choosing these layers and displaying them to screen.
 
 ## Overview
@@ -7,4 +7,9 @@ The image shows the real time visualization of the layers as the system is proce
 ![Sample Image Output during visualization of the layers](https://github.com/omarabid59/Real-Time-Tensorflow-Model-Layer-Visualization/blob/master/visualization_output.png)
 
 ## Quick Start Guide
+Install the necessary dependencies.
+```
+sudo apt-get install libopencv-dev python-opencv
+sudo pip install numpy scipy
+```
 
