@@ -64,7 +64,7 @@ To visualize the result, we can call the ```display_activations``` function as s
 display_activations(output_frame.visualization_data[0],num_features=6,padding=5,filter_size=(-1,-1))
 ```
 To customize the visualization, there are several parameters we can play with.
-1. ```num_features:``` Remember that our layer output - ```layer_1_out``` will be a tensor of the form (1,m_width,m_height, num_features). Thus, we can choose the number of features we want to visualize.
+1. ```num_features:``` Remember that our layer output - ```layer_1_out``` will be a tensor of the form (1,m_width,m_height, num_features). Thus, we can choose the number of features we want to visualize. To get the shape of a tensor, use ```output_frame.visualization_data[0].shape```.
 2. ```padding:``` Spacing between each feature output.
 3. ```filter_size:``` Size, in pixels of the feature size. If none is specified, uses the size of the first feature as the starting point.
 
